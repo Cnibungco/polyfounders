@@ -1,28 +1,37 @@
-.cust-pad{
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 80px;
+}
+
+.cust-pad {
   padding: 2em 0 2em 0;
 }
 
 .navbar {
   padding: 2em 0 2em 0;
   background-color: #000;
-} .navbar a {
-  padding-left: 20px;
-  color: gray;
 } .navbar a:hover {
   color: yellow;
+} .navbar img {
+  max-width: 200px;
+} .navbar .navbar-right a {
+  padding-left: 1em;
 }
 
 .jumbotron {
   background-image: url('images/about.jpg');
   background-repeat: no-repeat;
   background-position: center center;
-  height: 550px;
+  background-size: cover;
+  padding: 150px 0 150px 0;
+  /*height: 100%;*/
 } .jumbotron h2 {
   color: #fff;
 }
 
 .welcome {
   background-color: #696969;
+  color: white;
 }
 
 .feature {
