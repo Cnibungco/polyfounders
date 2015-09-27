@@ -17,15 +17,15 @@ body {
 .navbar {
   padding: 2em 0 2em 0;
   background-color: #000;
+  text-transform: uppercase;
 
 } .navbar .navbar-header {
   margin-left: 0.5em;
-} .navbar a:hover {
-  color: yellow;
 } .navbar img {
   max-width: 200px;
 } .navbar .navbar-right a {
   padding-left: 1em;
+  color: white;
 }
 
 .jumbotron {
