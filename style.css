@@ -10,6 +10,9 @@ body {
 .navbar {
   padding: 2em 0 2em 0;
   background-color: #000;
+
+} .navbar .navbar-header {
+  margin-left: 0.5em;
 } .navbar a:hover {
   color: yellow;
 } .navbar img {
@@ -24,9 +27,19 @@ body {
   background-position: center center;
   background-size: cover;
   padding: 150px 0 150px 0;
-  /*height: 100%;*/
-} .jumbotron h2 {
+  margin-bottom: 0;
+} .jumbotron h1 {
   color: #fff;
+  margin-bottom: 1em;
+} .jumbotron .overlay {
+  position: absolute;
+  left: 0; top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .3;
+} .jumbotron .container {
+  position: relative;
 }
 
 .welcome {
