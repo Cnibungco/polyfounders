@@ -46,3 +46,40 @@
   background-color: #000;
   color: white;
 }
+
+/* Four main points thing */
+.feature {
+  background-color: black;
+}
+.four-pts {
+  padding-top: 3em;
+  min-height: 20em;
+  color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.four-pts .overlay {
+  position: absolute;
+  left: 0; top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .6;
+}
+.four-pts h2, .four-pts p {
+  position: relative;
+}
+#learn-block {
+  background-image: url('images/learn.jpg');
+}
+#do-block {
+  background-image: url('images/participate.jpg');
+}
+#hack-block {
+  background-image: url('images/compete.jpg');
+}
+#network-block {
+  background-image: url('images/network.jpg');
+}
+/* End four main points thing */
