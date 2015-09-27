@@ -7,7 +7,7 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 80px;
+  padding-top: 79px;
 }
 
 .cust-pad {
@@ -15,18 +15,26 @@ body {
 }
 
 .navbar {
-  padding: 2em 0 2em 0;
+  padding: 2em 0 1.5em 0;
   background-color: #000;
   text-transform: uppercase;
-
 } .navbar .navbar-header {
   margin-left: 0.5em;
 } .navbar img {
   max-width: 200px;
-} .navbar .navbar-right a {
+} .navbar a {
   padding-left: 1em;
   color: white;
-}
+} .navbar .fa-bars {
+  color: white;
+  font-size: 2em;
+  margin-left: -2em;
+} .navbar a:hover {
+   color: black;
+   background-color: black;
+ } .navbar img {
+    margin-bottom: -2.5em;
+ }
 
 .jumbotron {
   background-image: url('images/about.jpg');
