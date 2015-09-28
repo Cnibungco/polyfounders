@@ -1,10 +1,11 @@
-.btn-primary {
+.bsc .btn-primary {
   background-color: #404040;
   border: 0;
   text-transform: uppercase;
-} .btn-primary:hover {
+} .bsc .btn-primary:hover {
   background-color: grey;
 }
+
 body {
   font-family: 'Open Sans', sans-serif;
   padding-top: 79px;
@@ -36,21 +37,11 @@ body {
     margin-bottom: -2.5em;
  }
 
-.jumbotron {
-  background-image: url('images/about.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 150px 0 150px 0;
-  margin-bottom: 0;
-} .jumbotron h1 {
+.carousel img{
+  max-width: 100%;
+} .carousel h3 {
   color: #fff;
-  margin-bottom: 1em;
-}
-
-.welcome {
-  background-color: black;
-  color: white;
+  margin-bottom: 5%;
 }
 
 .feature {
@@ -58,7 +49,7 @@ body {
 }
 
 .about {
-  padding: 4em 1em 4em 1em;
+  padding: 5em 1em 5em 1em;
 }
 
 .hackpoly {
@@ -66,8 +57,9 @@ body {
   font-size: 1.5em;
 }
 .bsc {
-  background-color: green;
+  background-image: url('images/bsc-bg.png');
   font-size: 1.5em;
+  color: white;
 }
 
 .events {
