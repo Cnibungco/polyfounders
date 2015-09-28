@@ -74,6 +74,16 @@ body {
   text-align: left;
 }
 
+.contact {
+  background-color: #404040;
+  color: white;
+} .contact a {
+  padding: 0 1em 0 1em;
+  color: white;
+} .contact a:hover {
+  color: #337ab7;
+}
+
 .footer {
   background-color: #000;
   color: white;
