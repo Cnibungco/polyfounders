@@ -67,6 +67,12 @@ body {
   background-color: black;
   color: white;
 }
+.events dt {
+  float: left;
+}
+.events dd {
+  text-align: left;
+}
 
 .footer {
   background-color: #000;
