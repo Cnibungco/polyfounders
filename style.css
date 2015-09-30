@@ -125,3 +125,11 @@ body {
   background-image: url('images/network.jpg');
 }
 /* End four main points thing */
+/* contact page */
+.eboard-members {
+  margin-top: 35px;
+  color: white;
+}
+.eboard-members a {
+  color: white;
+}
