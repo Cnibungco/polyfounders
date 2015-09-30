@@ -47,6 +47,10 @@ body {
   margin-bottom: 5%;
 }
 
+.hackpoly-caption h3 {
+  color: black;
+}
+
 .feature {
   background-color: gray;
 }
