@@ -19,7 +19,7 @@ body {
 
 .navbar {
   /*padding: 2em 0 1.5em 0;*/
-  background-color: rgba(241, 240, 238, 0.0);
+  background-color: #040707;
   text-transform: uppercase;
 } .navbar .navbar-header {
   margin-left: 0.5em;
