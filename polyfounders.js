@@ -1,1 +1,2 @@
-$('.dropdown-toggle').dropdown()
+$('#idea').slideUp('slow',function(){
+    });
