@@ -1,0 +1,90 @@
+#contact {
+  background: white;
+    color:black;
+}
+@font-face {
+  font-family: 'geometos';
+  src: url("/fonts/Geometos.ttf")format("truetype");
+}
+@font-face {
+  font-family: 'porter';
+  src: url("/fonts/Porter Bold.ttf")format("truetype");
+}
+@font-face {
+  font-family: 'bebas';
+  src: url("/fonts/BebasKai-Regular.otf")format("opentype");
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+.back{
+    position: relative;
+    height: 700px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%); 
+    opacity: 0.5;
+    
+}
+.text{
+    position:absolute; 
+    font-family: 'bebas', sans-serif;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color:black;
+    text-align: center;
+    left: 15%;
+    top: 300px;
+}
+.text a:hover{
+  text-decoration: none;
+    font-style: italic;
+    
+}
+.cust-pad {
+  padding: 2em 1em 2em 1em;
+}
+
+.navbar {
+  /*padding: 2em 0 1.5em 0;*/
+  background-color: #040707;
+  text-transform: uppercase;
+} .navbar .navbar-header {
+  margin-left: 0.5em;
+} .navbar img {
+  max-width: 200px;
+} .navbar a {
+  padding-left: 1em;
+  letter-spacing: 3px;
+  color: #fff;
+} .navbar .fa-bars {
+  color: #fff;
+  font-size: 2em;
+  margin-left: -2em;
+} .navbar a:hover {
+   color: black;
+   background-color: black;
+ } .navbar img {
+    margin-bottom: -2.5em;
+ }
+
+.footer {
+  background-color: #000;
+  color: white;
+}
+.footer .copyright p{
+ letter-spacing: 3px; 
+ position: relative;
+    margin:0px;
+    float: left;
+}
+.footer a{
+ float:right;
+ color: white;
+ padding: 10px;
+}
