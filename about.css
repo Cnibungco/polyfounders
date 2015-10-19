@@ -135,9 +135,11 @@ body {
 }
 a {
   text-decoration: none;
+  color:white;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #3498db;
 }
 .footer {
   background-color: #000;

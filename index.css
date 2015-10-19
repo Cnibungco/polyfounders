@@ -43,6 +43,10 @@
   background: #3cb0fd;
   text-decoration: none;
 }
+.btn a{
+  text-decoration: none;
+  color: white;
+}
 .bsc .btn-primary {
   background-color: #404040;
   border: 0;
@@ -50,7 +54,10 @@
 } .bsc .btn-primary:hover {
   background-color: grey;
 }
-
+.box{
+    border: 1px solid white;
+    margin: 1px;
+}
 
 body {
   font-family: 'Lato', sans-serif;
