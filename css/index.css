@@ -191,13 +191,13 @@ body {
   width: 100%;
   height: 400px;
   box-shadow: 5px 5px 5px #888888;
-  background-image: url('images/grey_@2X-b0e4978256086c7c2f4fa0cd72a44934.png');
+  background-image: url('../images/grey_@2X-b0e4978256086c7c2f4fa0cd72a44934.png');
 }
 
 #square2 {
   width: 100%;
   height: 400px;
-  background-image: url('images/bsc-bg.png');
+  background-image: url('../images/bsc-bg.png');
   box-shadow: 5px 5px 5px #888888;
   color: white;
 }
@@ -223,16 +223,16 @@ body {
   position: relative;
 }
 #learn-block {
-  background-image: url('images/learn.jpg');
+  background-image: url('../images/learn.jpg');
 }
 #do-block {
-  background-image: url('images/participate.jpg');
+  background-image: url('../images/participate.jpg');
 }
 #hack-block {
-  background-image: url('images/compete.jpg');
+  background-image: url('../images/compete.jpg');
 }
 #network-block {
-  background-image: url('images/network.jpg');
+  background-image: url('../images/network.jpg');
 }
 /* End four main points thing */
 .footer .copyright p{

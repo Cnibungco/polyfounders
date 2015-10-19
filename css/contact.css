@@ -31,6 +31,10 @@ body {
     opacity: 0.5;
     
 }
+.box{
+    border: 1px solid white;
+    margin: 1px;
+}
 .text{
     position:absolute; 
     font-family: 'bebas', sans-serif;

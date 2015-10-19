@@ -44,6 +44,10 @@ body {
  } .navbar img {
     margin-bottom: -2.5em;
  }
+.box{
+    border: 1px solid white;
+    margin: 1px;
+}
 .container {
   padding: 2px;
 }
