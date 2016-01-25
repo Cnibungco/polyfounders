@@ -161,7 +161,7 @@ body {
 }
 .top{
  padding: 20px; 
- left: 680px;
+ background: black;
  color: #fff;
  font-size: 30px;
   font-family: 'bebas', sans-serif;
@@ -170,7 +170,6 @@ body {
   letter-spacing: 1px;
   z-index: 1;
   text-align: center;
-  position: absolute;
 }
 @media only screen and (max-width: 992px) {
   .event {
